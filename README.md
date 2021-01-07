@@ -1,5 +1,11 @@
 # Example java 1.8 tests-project with features from my Java cook-book.
 
+![GitHub statistics](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/in_2021.svg)
+![GitHub views](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/views.svg)
+![GitHub views per week](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/views_per_week.svg)
+![GitHub clones](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/clones.svg)
+![GitHub clones per week](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/clones_per_week.svg)
+
 1. KISS
 2. Selenide
 3. Allure integration
