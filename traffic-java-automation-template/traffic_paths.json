@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template",
+    "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests/AllureHelpers.java",
+    "title": "java-automation-template/AllureHelpers.java at ea8615005f67641a69e06025d47fcf...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests/ConfigurationWebDriver.java",
+    "title": "java-automation-template/ConfigurationWebDriver.java at ea8615005f67641a69e06...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/pom.xml",
+    "title": "java-automation-template/pom.xml at ea8615005f67641a69e06025d47fcfe44bf130b7 ...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests/AbstractWebTest.java",
+    "title": "java-automation-template/AbstractWebTest.java at ea8615005f67641a69e06025d47f...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests/CustomLogger.java",
+    "title": "java-automation-template/CustomLogger.java at ea8615005f67641a69e06025d47fcfe...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
+    "title": "java-automation-template/TestRegistrationByEmail.java at ea8615005f67641a69e0...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/ea8615005f67641a69e06025d47fcfe44bf130b7",
+    "title": "aleksandr-kotlyar/java-automation-template at ea8615005f67641a69e06025d47fcfe...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test",
+    "title": "java-automation-template/src/test at ea8615005f67641a69e06025d47fcfe44bf130b7...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/ea8615005f67641a69e06025d47fcfe44bf130b7/src/test/java/com/bookmate/tests",
+    "title": "java-automation-template/src/test/java/com/bookmate/tests at ea8615005f67641a...",
+    "count": 1,
+    "uniques": 1
+  }
+]
