@@ -1,61 +1,25 @@
 [
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
-    "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
-    "count": 6,
-    "uniques": 2
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
-    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 5,
-    "uniques": 2
-  },
-  {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "GitHub - aleksandr-kotlyar/java-automation-template: Java Automation project ...",
-    "count": 4,
-    "uniques": 2
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/resources",
-    "title": "java-automation-template/src/test/resources at master · aleksandr-kotlyar/jav...",
     "count": 3,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java",
-    "title": "java-automation-template/src/test/java at master · aleksandr-kotlyar/java-aut...",
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
+    "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com",
-    "title": "java-automation-template/src/test/java/com at master · aleksandr-kotlyar/java...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate",
-    "title": "java-automation-template/src/test/java/com/bookmate at master · aleksandr-kot...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/AbstractWebTest.java",
-    "title": "java-automation-template/AbstractWebTest.java at master · aleksandr-kotlyar/j...",
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/.github/workflows",
+    "title": "java-automation-template/.github/workflows at master · aleksandr-kotlyar/java...",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/ConfigurationWebDriver.java",
-    "title": "java-automation-template/ConfigurationWebDriver.java at master · aleksandr-ko...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/resources/ConfigurationWebDriver.properties",
-    "title": "java-automation-template/ConfigurationWebDriver.properties at master · aleksa...",
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
+    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
     "count": 1,
     "uniques": 1
   }
