@@ -13,16 +13,16 @@ public class TestRegistrationByEmail extends AbstractWebTest {
     @Test
     public void testRegisterButtonActivation0() {
         Selenide.open(getBaseUrl());
-        $("#login-button").click();
+        $("[data-test-id='login-button']").click();
         sleep(200);
 
-        $("#auth-with-email").click();
-        $("#credential-input-email").setValue("ttest@btest.test");
-        $("#credential-input-password").sendKeys("test");
+        $("[data-test-id='auth-with-email']").click();
+        $("[data-test-id='credential-input-email']").setValue("ttest@btest.test");
+        $("[data-test-id='credential-input-password']").sendKeys("test12");
         $("[for='signup-checkboxes-legal']").click();
         $("[for='signup-checkboxes-age']").click();
 
-        $("#credential-submit").shouldBe(Condition.visible);
+        $("[data-test-id='credential-submit']").shouldBe(Condition.visible);
     }
 
     /** Log AAA + KISS */
@@ -30,20 +30,20 @@ public class TestRegistrationByEmail extends AbstractWebTest {
     public void testRegisterButtonActivation1() {
         arrange("Open login page", () -> {
             Selenide.open(getBaseUrl());
-            $("#login-button").click();
+            $("[data-test-id='login-button']").click();
             sleep(200);
         });
 
         act("Fill necessary registration fields", () -> {
-            $("#auth-with-email").click();
-            $("#credential-input-email").setValue("ttest@btest.test");
-            $("#credential-input-password").sendKeys("test");
+            $("[data-test-id='auth-with-email']").click();
+            $("[data-test-id='credential-input-email']").setValue("ttest@btest.test");
+            $("[data-test-id='credential-input-password']").sendKeys("test12");
             $("[for='signup-checkboxes-legal']").click();
             $("[for='signup-checkboxes-age']").click();
         });
 
         assertion("Assert credential-submit button is visible", () ->
-                $("#credential-submit").shouldBe(Condition.visible));
+                $("[data-test-id='credential-submit']").shouldBe(Condition.visible));
     }
 
     /** Log start/end + Log AAA + KISS */
@@ -53,20 +53,20 @@ public class TestRegistrationByEmail extends AbstractWebTest {
 
         arrange("Open login page", () -> {
             Selenide.open(getBaseUrl());
-            $("#login-button").click();
+            $("[data-test-id='login-button']").click();
             sleep(200);
         });
 
         act("Fill necessary registration fields", () -> {
-            $("#auth-with-email").click();
-            $("#credential-input-email").setValue("ttestt@ttest.test");
-            $("#credential-input-password").sendKeys("test");
+            $("[data-test-id='auth-with-email']").click();
+            $("[data-test-id='credential-input-email']").setValue("ttest@btest.test");
+            $("[data-test-id='credential-input-password']").sendKeys("test12");
             $("[for='signup-checkboxes-legal']").click();
             $("[for='signup-checkboxes-age']").click();
         });
 
         assertion("Assert credential-submit button is visible", () ->
-                $("#credential-submit").shouldBe(Condition.visible));
+                $("[data-test-id='credential-submit']").shouldBe(Condition.visible));
 
         infoTestStatus("1", "END");
     }
