@@ -1,4 +1,4 @@
-# Example java 1.8 tests-project with features from my Java cook-book.
+# java 1.8 test automation template with featured loggers.
 
 ![GitHub statistics](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/in_2021.svg)
 ![GitHub views](https://raw.githubusercontent.com/aleksandr-kotlyar/java-automation-template/traffic/traffic-java-automation-template/views.svg)
