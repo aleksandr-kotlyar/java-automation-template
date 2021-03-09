@@ -1,4 +1,4 @@
-name: traffic2badge
+name: Traffic to badge
 on:
   push:
     branches:
