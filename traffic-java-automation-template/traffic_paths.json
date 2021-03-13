@@ -2,20 +2,20 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 20,
-    "uniques": 11
+    "count": 27,
+    "uniques": 13
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "GitHub - aleksandr-kotlyar/java-automation-template: Java Automation project ...",
-    "count": 15,
+    "count": 18,
     "uniques": 3
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
     "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 9,
-    "uniques": 4
+    "count": 11,
+    "uniques": 5
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
@@ -36,6 +36,12 @@
     "uniques": 4
   },
   {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
+    "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
+    "count": 4,
+    "uniques": 3
+  },
+  {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/0a27d3b4ea02dafdfcc77d54e3423be962956ffa/src/test/java/com/bookmate/tests/CustomLogger.java",
     "title": "java-automation-template/CustomLogger.java at 0a27d3b4ea02dafdfcc77d54e3423be...",
     "count": 4,
@@ -46,12 +52,6 @@
     "title": "java tests with maven on github action by aleksandr-kotlyar · Pull Request #2...",
     "count": 4,
     "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
-    "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
-    "count": 3,
-    "uniques": 3
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/tests.yml",
