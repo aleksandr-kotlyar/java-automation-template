@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 33,
+    "count": 34,
     "uniques": 13
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
-    "count": 18,
+    "count": 17,
     "uniques": 2
   },
   {
@@ -24,20 +24,8 @@
     "uniques": 3
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/pull/2",
-    "title": "java tests with maven on github action by aleksandr-kotlyar · Pull Request #2...",
-    "count": 5,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/0a27d3b4ea02dafdfcc77d54e3423be962956ffa/src/test/java/com/bookmate/tests/CustomLogger.java",
     "title": "java-automation-template/CustomLogger.java at 0a27d3b4ea02dafdfcc77d54e3423be...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/pull/2/checks",
-    "title": "java tests with maven on github action by aleksandr-kotlyar · Pull Request #2...",
     "count": 4,
     "uniques": 1
   },
@@ -58,5 +46,17 @@
     "title": "java-automation-template/AbstractWebTest.java at master · aleksandr-kotlyar/j...",
     "count": 2,
     "uniques": 2
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/actions",
+    "title": "Actions · aleksandr-kotlyar/java-automation-template",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/.github/workflows/traffic2badge.yml",
+    "title": "java-automation-template/traffic2badge.yml at master · aleksandr-kotlyar/java...",
+    "count": 2,
+    "uniques": 1
   }
 ]
