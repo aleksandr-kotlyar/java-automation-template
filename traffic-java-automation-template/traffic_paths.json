@@ -2,8 +2,8 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 34,
-    "uniques": 13
+    "count": 31,
+    "uniques": 11
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
@@ -14,41 +14,17 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
     "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 10,
-    "uniques": 4
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
-    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
-    "count": 5,
+    "count": 4,
     "uniques": 3
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/0a27d3b4ea02dafdfcc77d54e3423be962956ffa/src/test/java/com/bookmate/tests/CustomLogger.java",
-    "title": "java-automation-template/CustomLogger.java at 0a27d3b4ea02dafdfcc77d54e3423be...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/tests.yml",
-    "title": "Actions · aleksandr-kotlyar/java-automation-template",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/traffic2badge.yml",
-    "title": "Actions · aleksandr-kotlyar/java-automation-template",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/AbstractWebTest.java",
-    "title": "java-automation-template/AbstractWebTest.java at master · aleksandr-kotlyar/j...",
+    "path": "/aleksandr-kotlyar/java-automation-template/commits",
+    "title": "Commits · aleksandr-kotlyar/java-automation-template",
     "count": 2,
     "uniques": 2
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions",
+    "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/tests.yml",
     "title": "Actions · aleksandr-kotlyar/java-automation-template",
     "count": 2,
     "uniques": 1
@@ -57,6 +33,30 @@
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/.github/workflows/traffic2badge.yml",
     "title": "java-automation-template/traffic2badge.yml at master · aleksandr-kotlyar/java...",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
+    "title": "Commits · aleksandr-kotlyar/java-automation-template",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/stargazers",
+    "title": "Stargazers · aleksandr-kotlyar/java-automation-template",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate",
+    "title": "java-automation-template/src/test/java/com/bookmate at master · aleksandr-kot...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/actions",
+    "title": "Actions · aleksandr-kotlyar/java-automation-template",
+    "count": 1,
     "uniques": 1
   }
 ]
