@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 31,
-    "uniques": 11
+    "count": 21,
+    "uniques": 5
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
-    "count": 17,
+    "count": 14,
     "uniques": 2
   },
   {
@@ -22,18 +22,6 @@
     "title": "Commits · aleksandr-kotlyar/java-automation-template",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/tests.yml",
-    "title": "Actions · aleksandr-kotlyar/java-automation-template",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/.github/workflows/traffic2badge.yml",
-    "title": "java-automation-template/traffic2badge.yml at master · aleksandr-kotlyar/java...",
-    "count": 2,
-    "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
@@ -54,8 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions",
-    "title": "Actions · aleksandr-kotlyar/java-automation-template",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/README.md",
+    "title": "java-automation-template/README.md at master · aleksandr-kotlyar/java-automat...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
+    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/edit/master/README.md",
+    "title": "Editing java-automation-template/README.md at master · aleksandr-kotlyar/java...",
     "count": 1,
     "uniques": 1
   }
