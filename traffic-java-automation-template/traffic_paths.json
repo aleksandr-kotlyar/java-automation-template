@@ -2,13 +2,13 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 21,
+    "count": 18,
     "uniques": 5
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
-    "count": 14,
+    "count": 13,
     "uniques": 2
   },
   {
@@ -26,12 +26,6 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
     "title": "Commits · aleksandr-kotlyar/java-automation-template",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/stargazers",
-    "title": "Stargazers · aleksandr-kotlyar/java-automation-template",
     "count": 2,
     "uniques": 1
   },
@@ -56,6 +50,12 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/edit/master/README.md",
     "title": "Editing java-automation-template/README.md at master · aleksandr-kotlyar/java...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/stargazers",
+    "title": "Stargazers · aleksandr-kotlyar/java-automation-template",
     "count": 1,
     "uniques": 1
   }
