@@ -2,24 +2,24 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 18,
-    "uniques": 5
+    "count": 12,
+    "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
-    "count": 13,
-    "uniques": 2
+    "count": 11,
+    "uniques": 3
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
     "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 4,
-    "uniques": 3
+    "count": 3,
+    "uniques": 2
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/commits",
-    "title": "Commits · aleksandr-kotlyar/java-automation-template",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
+    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
     "count": 2,
     "uniques": 2
   },
@@ -36,26 +36,26 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/README.md",
-    "title": "java-automation-template/README.md at master · aleksandr-kotlyar/java-automat...",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/AllureHelpers.java",
+    "title": "java-automation-template/AllureHelpers.java at master · aleksandr-kotlyar/jav...",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
-    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/ConfigurationWebDriver.java",
+    "title": "java-automation-template/ConfigurationWebDriver.java at master · aleksandr-ko...",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/edit/master/README.md",
-    "title": "Editing java-automation-template/README.md at master · aleksandr-kotlyar/java...",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestTriageSO.java",
+    "title": "java-automation-template/TestTriageSO.java at master · aleksandr-kotlyar/java...",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/stargazers",
-    "title": "Stargazers · aleksandr-kotlyar/java-automation-template",
+    "path": "/aleksandr-kotlyar/java-automation-template/commits",
+    "title": "Commits · aleksandr-kotlyar/java-automation-template",
     "count": 1,
     "uniques": 1
   }
