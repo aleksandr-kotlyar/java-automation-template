@@ -8,20 +8,8 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 8,
-    "uniques": 2
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
-    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 4,
-    "uniques": 3
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
-    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
-    "count": 2,
-    "uniques": 2
+    "count": 6,
+    "uniques": 1
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
@@ -30,14 +18,14 @@
     "uniques": 2
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
-    "title": "Commits · aleksandr-kotlyar/java-automation-template",
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
+    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
     "count": 2,
-    "uniques": 1
+    "uniques": 2
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate",
-    "title": "java-automation-template/src/test/java/com/bookmate at master · aleksandr-kot...",
+    "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
+    "title": "Commits · aleksandr-kotlyar/java-automation-template",
     "count": 2,
     "uniques": 1
   },
@@ -56,6 +44,18 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/ConfigurationWebDriver.java",
     "title": "java-automation-template/ConfigurationWebDriver.java at master · aleksandr-ko...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/CustomLogger.java",
+    "title": "java-automation-template/CustomLogger.java at master · aleksandr-kotlyar/java...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestTriageSO.java",
+    "title": "java-automation-template/TestTriageSO.java at master · aleksandr-kotlyar/java...",
     "count": 1,
     "uniques": 1
   }
