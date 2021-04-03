@@ -2,14 +2,8 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
-    "count": 8,
-    "uniques": 3
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
-    "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
     "count": 5,
-    "uniques": 1
+    "uniques": 3
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
@@ -24,8 +18,8 @@
     "uniques": 2
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/commits/master",
-    "title": "Commits · aleksandr-kotlyar/java-automation-template",
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
+    "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
     "count": 2,
     "uniques": 1
   },
