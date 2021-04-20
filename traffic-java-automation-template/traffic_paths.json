@@ -6,16 +6,16 @@
     "uniques": 6
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
-    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
-    "count": 3,
-    "uniques": 3
-  },
-  {
     "path": "/aleksandr-kotlyar/java-automation-template",
     "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
     "count": 3,
     "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate/tests",
+    "title": "java-automation-template/src/test/java/com/bookmate/tests at master · aleksan...",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/aleksandr-kotlyar/java-automation-template/graphs/traffic",
@@ -27,12 +27,6 @@
     "path": "/aleksandr-kotlyar/java-automation-template/pulse",
     "title": "Pulse · aleksandr-kotlyar/java-automation-template",
     "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
-    "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
-    "count": 1,
     "uniques": 1
   },
   {
