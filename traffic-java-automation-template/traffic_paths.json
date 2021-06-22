@@ -42,6 +42,12 @@
     "uniques": 1
   },
   {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
+    "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/resources/ConfigurationWebDriver.properties",
     "title": "java-automation-template/ConfigurationWebDriver.properties at master · aleksa...",
     "count": 1,
@@ -50,12 +56,6 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com",
     "title": "java-automation-template/src/test/java/com at master · aleksandr-kotlyar/java...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate",
-    "title": "java-automation-template/src/test/java/com/bookmate at master · aleksandr-kot...",
     "count": 1,
     "uniques": 1
   }
