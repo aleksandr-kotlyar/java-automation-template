@@ -6,18 +6,6 @@
     "uniques": 1
   },
   {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions",
-    "title": "Actions · aleksandr-kotlyar/java-automation-template",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/aleksandr-kotlyar/java-automation-template/actions/runs/910616444",
-    "title": "Update README.md · aleksandr-kotlyar/java-automation-template@932d272",
-    "count": 2,
-    "uniques": 1
-  },
-  {
     "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/traffic2badge.yml",
     "title": "Actions · aleksandr-kotlyar/java-automation-template",
     "count": 2,
@@ -27,6 +15,12 @@
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
     "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/actions",
+    "title": "Actions · aleksandr-kotlyar/java-automation-template",
+    "count": 1,
     "uniques": 1
   },
   {
@@ -56,6 +50,12 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com",
     "title": "java-automation-template/src/test/java/com at master · aleksandr-kotlyar/java...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com/bookmate",
+    "title": "java-automation-template/src/test/java/com/bookmate at master · aleksandr-kot...",
     "count": 1,
     "uniques": 1
   }
