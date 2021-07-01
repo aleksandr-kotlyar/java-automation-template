@@ -1,7 +1,31 @@
 [
   {
+    "path": "/aleksandr-kotlyar/java-automation-template",
+    "title": "aleksandr-kotlyar/java-automation-template: Java Automation project template....",
+    "count": 2,
+    "uniques": 1
+  },
+  {
     "path": "/aleksandr-kotlyar/java-automation-template/actions/workflows/traffic2badge.yml",
     "title": "Actions · aleksandr-kotlyar/java-automation-template",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/pom.xml",
+    "title": "java-automation-template/pom.xml at master · aleksandr-kotlyar/java-automatio...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/AbstractWebTest.java",
+    "title": "java-automation-template/AbstractWebTest.java at master · aleksandr-kotlyar/j...",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src",
+    "title": "java-automation-template/src at master · aleksandr-kotlyar/java-automation-te...",
     "count": 2,
     "uniques": 1
   },
@@ -14,6 +38,24 @@
   {
     "path": "/aleksandr-kotlyar/java-automation-template/blob/master/src/test/java/com/bookmate/tests/TestRegistrationByEmail.java",
     "title": "java-automation-template/TestRegistrationByEmail.java at master · aleksandr-k...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test",
+    "title": "java-automation-template/src/test at master · aleksandr-kotlyar/java-automati...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java",
+    "title": "java-automation-template/src/test/java at master · aleksandr-kotlyar/java-aut...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/aleksandr-kotlyar/java-automation-template/tree/master/src/test/java/com",
+    "title": "java-automation-template/src/test/java/com at master · aleksandr-kotlyar/java...",
     "count": 1,
     "uniques": 1
   }
