@@ -1,12 +1,12 @@
 package com.bookmate.tests;
 
-import com.codeborne.selenide.Screenshots;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 
-import static com.codeborne.selenide.Selenide.close;
+import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static com.codeborne.selenide.Selenide.screenshot;
 import static com.codeborne.selenide.WebDriverRunner.hasWebDriverStarted;
 
 public class AbstractWebTest extends ConfigurationWebDriver {
@@ -18,7 +18,7 @@ public class AbstractWebTest extends ConfigurationWebDriver {
         @Override
         protected void failed(Throwable e, Description description) {
             if (hasWebDriverStarted()) {
-                Screenshots.takeScreenShot(description.getClassName() + "_"
+                screenshot(description.getClassName() + "_"
                         + description.getMethodName() + "_"
                         + System.currentTimeMillis());
                 allure.takeScreenShots();
@@ -26,7 +26,7 @@ public class AbstractWebTest extends ConfigurationWebDriver {
         }
 
         @Override
-        protected void finished(Description description) { close();
+        protected void finished(Description description) { closeWebDriver();
         }
     };
 

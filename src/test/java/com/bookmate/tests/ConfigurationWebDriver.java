@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 import static org.assertj.core.api.Assertions.fail;
@@ -21,9 +22,7 @@ public class ConfigurationWebDriver extends CustomLogger {
 
     public void createWebDriver() {
         WebDriver driver = null;
-        String driverName = "";
-
-        String webDriver = driverName.isEmpty() ? getDriverName() : driverName;
+        String webDriver = getDriverName();
 
         if (FIREFOX.equalsIgnoreCase(webDriver)) {
             driver = getFirefoxDriver();
@@ -31,11 +30,13 @@ public class ConfigurationWebDriver extends CustomLogger {
         } else if (CHROME.equalsIgnoreCase(webDriver)) {
             driver = getHeadlessChromeDriver();
             info("-----------------USING CHROME DRIVER-----------------");
-        } else
-            fail("No Driver was set, go to ConfigurationWebDriver.class and add your browser or Set property 'test.webdriver' in pom.xml to 'chrome' or another browser");
+        } else {
+            fail("No Driver was set, set property 'test.webdriver' in ConfigurationWebDriver.properties to 'chrome' or 'firefox'");
+        }
+
         WebDriverRunner.setWebDriver(driver);
         Configuration.baseUrl = getBaseUrl();
-        Configuration.timeout = 4000;
+        Configuration.timeout = 6000;
         Configuration.screenshots = true;
     }
 
@@ -49,30 +50,35 @@ public class ConfigurationWebDriver extends CustomLogger {
     private WebDriver getHeadlessChromeDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--headless=new");
         chromeOptions.addArguments("--disable-gpu");
         chromeOptions.addArguments("--window-size=1280,1000");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
         return new ChromeDriver(chromeOptions);
     }
 
     private String getDriverName() {
-        Properties properties = new Properties();
-        try {
-            properties.load(ConfigurationWebDriver.class.getClassLoader().getResourceAsStream("ConfigurationWebDriver.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return properties.getProperty("test.webdriver");
+        Properties properties = loadProperties();
+        return properties.getProperty("test.webdriver", CHROME);
     }
 
     public static String getBaseUrl() {
+        Properties properties = loadProperties();
+        return properties.getProperty("server", "https://bookmate.com");
+    }
+
+    private static Properties loadProperties() {
         Properties properties = new Properties();
-        try {
-            properties.load(ConfigurationWebDriver.class.getClassLoader().getResourceAsStream("ConfigurationWebDriver.properties"));
+        try (InputStream input = ConfigurationWebDriver.class.getClassLoader()
+                .getResourceAsStream("ConfigurationWebDriver.properties")) {
+            if (input == null) {
+                Assert.fail("ConfigurationWebDriver.properties not found in test resources");
+            }
+            properties.load(input);
         } catch (IOException e) {
-            e.printStackTrace();
-            Assert.fail();
+            throw new IllegalStateException("Failed to load ConfigurationWebDriver.properties", e);
         }
-        return properties.getProperty("server");
+        return properties;
     }
 }
