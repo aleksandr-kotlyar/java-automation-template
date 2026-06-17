@@ -1,4 +1,69 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
 .idea/
 *.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+nbproject/private/
+
+# Java build output
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Test reports and UI automation artifacts
+allure-results/
 .allure-results/
-/target/*
+allure-report/
+.allure-report/
+test-output/
+surefire-reports/
+failsafe-reports/
+selenide-reports/
+screenshots/
+videos/
+traces/
+downloads/
+
+# Browser and driver binaries accidentally saved in the project
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+msedgedriver
+msedgedriver.exe
+
+# Logs and crash dumps
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+nohup.out
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+local.properties
+*.local.properties
+webdriver.local.properties

@@ -1,0 +1,95 @@
+plugins {
+    id 'java'
+}
+
+group = 'java-automation-template'
+version = '1.0-SNAPSHOT'
+
+def productionTestCategory = 'com.bookmate.categories.ProductionTest'
+
+def configValue = { String name, String defaultValue = '' ->
+    def projectValue = providers.gradleProperty(name).orElse('').get()
+    if (!projectValue.isBlank()) {
+        return projectValue
+    }
+
+    return System.getProperty(name, defaultValue)
+}
+
+def configList = { String name, String defaultValue = '' ->
+    configValue(name, defaultValue)
+            .split(',')
+            .collect { it.trim() }
+            .findAll { !it.isBlank() }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'com.codeborne:selenide:7.16.2'
+    testImplementation 'io.qameta.allure:allure-junit4:2.35.2'
+    testImplementation 'org.assertj:assertj-core:3.27.7'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:6.3.4'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(ProcessResources).configureEach {
+    filteringCharset = 'UTF-8'
+}
+
+tasks.withType(Test).configureEach {
+    systemProperty 'allure.results.directory', layout.buildDirectory.dir('allure-results').get().asFile.absolutePath
+    systemProperty 'server', configValue('server', 'https://bookmate.com')
+    systemProperty 'test.webdriver', configValue('test.webdriver', 'chrome')
+
+    testLogging {
+        events 'failed', 'skipped'
+        exceptionFormat = 'full'
+    }
+}
+
+test {
+    description = 'Runs non-production UI tests by default.'
+
+    useJUnit {
+        def includedGroups = configList('groups')
+        def defaultExcludedGroups = includedGroups.empty ? productionTestCategory : ''
+
+        includedGroups.each { includeCategories it }
+        configList('excludedGroups', defaultExcludedGroups).each { excludeCategories it }
+    }
+}
+
+tasks.register('allTests', Test) {
+    description = 'Runs all UI tests, including production/live tests.'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    shouldRunAfter test
+
+    useJUnit()
+}
+
+tasks.register('productionTests', Test) {
+    description = 'Runs only production/live UI tests.'
+    group = 'verification'
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    shouldRunAfter test
+
+    useJUnit {
+        includeCategories productionTestCategory
+    }
+}
